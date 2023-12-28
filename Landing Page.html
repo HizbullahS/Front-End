@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Landing Page</title>
+	<link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body">
+
+	<div class="header">
+		<h1>Personal Blog<h1>
+	</div>
+	<div class="menu-background">
+		<ul>
+			<li class="menu">Home</li>
+			<li class="menu">About Us</li>
+			<li class="menu">Gallery</li>
+			<li class="menu">Contact Us</li>
+		</ul>
+	</div>
+	<div class="body">
+		<h2>My First Blog<h2>
+				<img src="blog_online_business.jpg" alt="Featured Image">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex cupiditate impedit libero necessitatibus
+					praesentium aperiam rem reiciendis non, quod doloremque sequi et repellendus, quam ipsam sunt consequuntur,
+					dolores molestias labore laboriosam sit exercitationem autem ab? Illum, deserunt a, corporis voluptatum,
+					deleniti fugit doloremque quae inventore totam ipsam similique. Fugit fuga architecto voluptas voluptatum in
+					corrupti blanditiis voluptates deserunt, neque vitae!
+					<br><br>
+					Eos exercitationem commodi dolor ad ullam? Inventore nam labore soluta ducimus maxime autem ea beatae repellat
+					molestiae reprehenderit iste sit, laudantium debitis, ad magni dolore. Neque, maxime placeat unde, nesciunt
+					voluptatibus sed magni a quisquam molestias facilis laborum, commodi esse.
+				</p>
+
+	</div>
+	<div class="sidebar">
+		<h3>Quick Links</h3>
+		<ul class="sidebar-menu">
+			<li>Home</li>
+			<li>About Us</li>
+			<li>Gallery</li>
+			<li>Contact Us</li>
+		</ul>
+		<h3>Get In Touch</h3>
+		<ul class="sidebar-menu">
+			<li>info@gmail.com</li>
+			<li>+92 123456789</li>
+		</ul>
+
+	</div>
+
+	<div style="clear:both;"></div>
+
+
+	<div class="form" style="padding: 40px 0 40px 0;">
+		<h5 style="font-size: 30px; text-align: center;">Information Form</h5><br><br>
+		<form class="eye-catching-form" style="margin:0 auto;">
+			<label>First Name</label>
+			<input type="text" id="firstname" placeholder="First Name"><br>
+			<label>Last Name</label>
+			<input type="text" id="lastname" placeholder="Last Name"> <br>
+			<label>Email</label>
+			<input type="text" id="email" placeholder="Email Address"><br>
+			<label>Phone Number</label>
+			<input type="number" id="number" placeholder="Phone Number"> <br>
+			<input class="btn" type="submit" id="btn" value="Submit" style="margin: 20px auto 0 auto;">
+		</form>
+	</div>
+
+	<div class="footer">
+		<h4>&copy;Personal Blog - All Right Reserved 2023</h4>
+	</div>
+
+	<script>
+		firstname = document.getElementById("firstname")
+		lastname = document.getElementById("lastname")
+		email = document.getElementById("email")
+		phonenumber = document.getElementById("number")
+		btn = document.getElementById("btn")
+
+		btn.onclick = function () {
+			alert(`Your Full Name is ${firstname.value} ${lastname.value}\nYour Email is ${email.value} \nYour Number is ${number.value}`);
+		}
+	</script>
+
+	</body>
+
+</html>

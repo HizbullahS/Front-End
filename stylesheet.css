@@ -1,0 +1,245 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.eye-catching-form {
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 40px 20px 20px;
+  width: 300px;
+}
+
+.eye-catching-form input[type="text"],
+.eye-catching-form input[type="password"],
+.eye-catching-form input[type="email"],
+.eye-catching-form input[type="number"],
+.eye-catching-form select,
+.eye-catching-form textarea {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  font-size: 14px;
+  margin-bottom: 10px;
+  padding: 8px;
+  width: 100%;
+}
+
+.eye-catching-form input[type="submit"] {
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 0 auto;
+  padding: 10px;
+  text-transform: uppercase;
+  width: 50%;
+}
+
+.eye-catching-form input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+@media screen and (max-width: 500px) {
+  .header {
+    background-color: #fcbf92;
+    height: 80px;
+  }
+
+  h1 {
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    padding-top: 15px;
+    text-align: center;
+  }
+
+  h2 {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    padding-top: 60px;
+    text-align: center;
+  }
+
+  h3 {
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    padding-top: 60px;
+  }
+
+  h4 {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  p {
+    color: rgb(63, 63, 63);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    padding: 0 30px 0 30px;
+    margin-top: -30px;
+    text-align: justify;
+  }
+
+  .menu {
+    color: #333333;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 20px 0 15px 0;
+    padding-left: 35px;
+    float: left;
+    list-style: none;
+  }
+
+  .menu-background {
+    height: 60px;
+    background-color: #db9495 !important;
+  }
+
+
+  img {
+    width: 80%;
+    height: auto;
+    padding: 0 0 40px 0;
+    margin-top: -30px;
+
+  }
+
+  .body {
+    width: 100%;
+    float: none;
+    background-color: white;
+  }
+
+
+  .sidebar {
+    width: 100%;
+    float: none;
+    background-color: #daeef6;
+    height: 350px;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .sidebar-menu {
+    color: rgb(63, 63, 63);
+    font-size: 22px;
+    padding-top: 10px;
+    line-height: 50px;
+    text-align: center;
+    font-weight: 400;
+    list-style: none;
+  }
+
+  .footer {
+    background-color: #db9495;
+    height: 40px;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .header {
+    background-color: #fcbf92;
+    height: 120px;
+  }
+
+  h1 {
+    color: white;
+    font-size: 48px;
+    padding-top: 30px;
+    padding-left: 80px;
+  }
+
+  h2 {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    padding-top: 60px;
+    padding-left: 80px;
+  }
+
+  h3 {
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+    padding-top: 60px;
+    padding-left: 40px;
+  }
+
+  h4 {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    padding: 20px 40px 20px 0;
+    text-align: right;
+  }
+
+  .menu {
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    padding: 15px 0 15px 0;
+    padding-left: 80px;
+    float: left;
+    list-style: none;
+  }
+
+  .menu-background {
+    height: 60px;
+    background-color: #db9495 !important;
+  }
+
+
+  img {
+    width: auto;
+    height: auto;
+    padding: 0 0 20px 0;
+    margin-top: -20px;
+
+  }
+
+  .body {
+    width: 80%;
+    float: left;
+    background-color: white;
+  }
+
+  p {
+    color: rgb(63, 63, 63);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: justify;
+    padding-right: 80px;
+    padding-bottom: 40px;
+  }
+
+  .sidebar {
+    width: 20%;
+    float: right;
+    background-image: linear-gradient(to bottom, #daeef6, rgba(255, 0, 0, 0));
+    height: 1200px;
+  }
+
+  .sidebar-menu {
+    color: rgb(63, 63, 63);
+    font-size: 22px;
+    padding-top: 10px;
+    padding-left: 80px;
+    line-height: 50px;
+    text-align: justify;
+    font-weight: 400;
+  }
+
+  .form {
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0), #FCBF92);
+  }
+
+  .footer {
+    background-color: #db9495;
+  }
+}
